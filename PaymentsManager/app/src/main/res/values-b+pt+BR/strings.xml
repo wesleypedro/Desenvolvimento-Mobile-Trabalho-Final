@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edtName">Nome</string>
+    <string name="inputHintName">Nome</string>
+    <string name="inputHintEmail">email@example.com</string>
+    <string name="inputHintPassword">Digite uma senha</string>
+    <string name="inputHintConfirmPassword">Confirme sua senha</string>
+    <string name="inputDescriptionProfileButton">Entre com uma foto para o perfil</string>
+    <string name="btnTextRegister">CADASTRAR</string>
+    <string name="linkLogin">Já possui uma conta? Faça login aqui</string>
+    <string name="textRegister">Cadastre-se</string>
+</resources>

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Payments Manager</string>
+    <string name="inputHintName">Nome</string>
+    <string name="inputHintEmail">email@example.com</string>
+    <string name="inputHintPassword">Digite uma senha</string>
+    <string name="inputHintConfirmPassword">Confirme sua senha</string>
+    <string name="inputDescriptionProfileButton">Entre com uma foto para o perfil</string>
+    <string name="btnTextRegister">CADASTRAR</string>
+    <string name="linkLogin">Já possui uma conta? Faça login aqui</string>
+    <string name="textRegister">Cadastre-se</string>
+    <string name="title_activity_room">Suas salas</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
