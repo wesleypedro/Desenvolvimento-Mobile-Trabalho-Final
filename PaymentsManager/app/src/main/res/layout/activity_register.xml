@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
 
-</LinearLayout>
+    <Button
+        android:id="@+id/registerBtnSelectPhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="@dimen/marginTopDefaultValue"
+        android:background="@drawable/bg_button_img_rounded"
+        android:text="@string/selectPhoto"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/registerImgVwPhoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="@+id/registerBtnSelectPhoto"
+        app:layout_constraintEnd_toEndOf="@+id/registerBtnSelectPhoto"
+        app:layout_constraintStart_toStartOf="@+id/registerBtnSelectPhoto"
+        app:layout_constraintTop_toTopOf="@+id/registerBtnSelectPhoto" />
+
+    <EditText
+        android:id="@+id/registerEdtName"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="@dimen/marginLeftDefaultValue"
+        android:layout_marginLeft="@dimen/marginLeftDefaultValue"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="@dimen/marginRightDefaultValue"
+        android:layout_marginRight="@dimen/marginRightDefaultValue"
+        android:background="@drawable/bg_edittext_rounded"
+        android:ems="10"
+        android:hint="@string/inputHintName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerBtnSelectPhoto" />
+
+    <EditText
+        android:id="@+id/registerEdtEmail"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:ems="10"
+        android:hint="@string/inputHintEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdtName"
+        app:layout_constraintStart_toStartOf="@+id/registerEdtName"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdtName" />
+
+    <EditText
+        android:id="@+id/registerEdtPassword"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:ems="10"
+        android:hint="@string/inputHintPassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdtEmail"
+        app:layout_constraintStart_toStartOf="@+id/registerEdtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdtEmail" />
+
+    <EditText
+        android:id="@+id/registerEdtConfirmPassword"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edittext_rounded"
+        android:ems="10"
+        android:hint="@string/inputHintConfirmPassword"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdtPassword"
+        app:layout_constraintStart_toStartOf="@+id/registerEdtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdtPassword" />
+
+    <Button
+        android:id="@+id/registerBtnRegister"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_button_rounded"
+        android:text="@string/btnTextRegister"
+        android:textColor="@color/colorWhiteBase"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdtConfirmPassword"
+        app:layout_constraintStart_toStartOf="@+id/registerEdtConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdtConfirmPassword" />
+
+    <TextView
+        android:id="@+id/registerTextLinkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/linkLogin"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/registerBtnRegister"
+        app:layout_constraintStart_toStartOf="@+id/registerBtnRegister"
+        app:layout_constraintTop_toBottomOf="@+id/registerBtnRegister" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

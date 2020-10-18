@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="edtName">Nome</string>
+    <string name="app_name">Payments Manager</string>
     <string name="inputHintName">Nome</string>
     <string name="inputHintEmail">email@example.com</string>
-    <string name="inputHintPassword">Digite uma senha</string>
+    <string name="inputHintPassword">Digite sua senha</string>
     <string name="inputHintConfirmPassword">Confirme sua senha</string>
     <string name="inputDescriptionProfileButton">Entre com uma foto para o perfil</string>
     <string name="btnTextRegister">CADASTRAR</string>
-    <string name="linkLogin">Já possui uma conta? Faça login aqui</string>
+    <string name="linkLogin">Já tem uma conta? Faça login aqui!</string>
     <string name="textRegister">Cadastre-se</string>
+    <string name="title_activity_room">Suas salas</string>
+    <string name="inputHintNameCard">Nome da conta</string>
+    <string name="inputHintDescriptionCard">Descrição da conta</string>
+    <string name="textChoosePlaceMap">Escolha um local de pagamento no mapa</string>
+    <string name="btnTextSave">SALVAR</string>
+    <string name="textPlaceMapPayment">Local de pagamento</string>
+    <string name="btnTextLogin">Entrar</string>
+    <string name="linkRegister">Não tem uma conta? Clique aqui!</string>
+    <string name="errorWrongFields">Erro! Campos inválidos.</string>
+    <string name="errorIncompatiblePasswords">Erro! Senhas não coincidem.</string>
+    <string name="selectPhoto">Foto</string>
 </resources>

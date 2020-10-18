@@ -6,30 +6,78 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn_salas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="Salas"
-        app:layout_constraintTop_toBottomOf="@+id/btn_principal"
-        tools:layout_editor_absoluteX="45dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn_cadastro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Cadastro"
-        app:layout_constraintTop_toBottomOf="@+id/btn_salas"
-        tools:layout_editor_absoluteX="47dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/btn_principal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:text="Principal"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="47dp" />
+            <Button
+                android:id="@+id/btn_cadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorDarkBlue"
+                android:text="Cadastro" />
+
+            <Button
+                android:id="@+id/btn_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorGreenOk"
+                android:text="Cards" />
+
+            <Button
+                android:id="@+id/btn_salas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorRedError"
+                android:text="Salas" />
+
+            <Button
+                android:id="@+id/btn_createCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorWhiteBase"
+                android:text="Criar Card" />
+
+            <Button
+                android:id="@+id/btn_createRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorWhiteBlue"
+                android:text="Criar Sala" />
+
+            <Button
+                android:id="@+id/btn_cardDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Detalhes card" />
+
+            <Button
+                android:id="@+id/btn_Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Login" />
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
