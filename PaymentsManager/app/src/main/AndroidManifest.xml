@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RoomCreateActivity" />
+        <activity android:name=".CardsCreateActivity" />
+        <activity android:name=".CardsDetailActivity" />
+        <activity android:name=".CardsActivity" />
+        <activity android:name=".RoomListActivity" />
+        <activity android:name=".RoomsActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
