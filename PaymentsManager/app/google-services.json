@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476585823442",
+    "firebase_url": "https://payments-manager.firebaseio.com",
+    "project_id": "payments-manager",
+    "storage_bucket": "payments-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476585823442:android:4fc117467af991ba25310b",
+        "android_client_info": {
+          "package_name": "br.ufc.quixada.dsdm.paymentsmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476585823442-n4hksnna0nse0s6tcg5ntjkr9p8d1226.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATnOj33FP3ZOyTyLtW-5M15xZNYOGhSp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476585823442-n4hksnna0nse0s6tcg5ntjkr9p8d1226.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

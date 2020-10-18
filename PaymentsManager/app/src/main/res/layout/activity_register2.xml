@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/textRegister"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:layout_marginTop="20dp"
+                android:background="@null"
+                app:srcCompat="@mipmap/profile_default_icon_round" />
+
+            <EditText
+                android:id="@+id/registerEdtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:ems="10"
+                android:hint="@string/inputHintName"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/registerEdtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:ems="10"
+                android:hint="@string/inputHintEmail"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/registerEdtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:ems="10"
+                android:hint="@string/inputHintPassword"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/registerEdtConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_edittext_rounded"
+                android:ems="10"
+                android:hint="@string/inputHintConfirmPassword"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/registerBtnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_button_rounded"
+                android:text="@string/btnTextRegister"
+                android:textColor="@color/colorWhiteBase" />
+
+            <TextView
+                android:id="@+id/registerLinkLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="@string/linkLogin"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
